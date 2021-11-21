@@ -36,5 +36,5 @@ root                    (project root folder)
 * Raylib-py
 
 ## Authors
----
+Anna Merrill: mer20014@byui.edu
 * # TODO: Add your names and emails here

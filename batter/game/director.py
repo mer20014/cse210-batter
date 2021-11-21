@@ -50,12 +50,22 @@ class Director:
 
 
     def game_over(self):
+        """
+        Determines if the game is over. 
+        
+        Returns boolean
+        """
         ball = self._cast["balls"][0]
         ball_velocity = ball.get_velocity().get_y()
         if ball_velocity == 0:
             return False
         
     def win(self):
+        """
+        Determines if the game is won
+
+        Return boolean
+        """
         bricks_length = len(self._cast["bricks"])
         if bricks_length == 0:
             return True
